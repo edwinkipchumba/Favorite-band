@@ -4,10 +4,7 @@
     padding: 0;
 }
 
-.headershowcase{
-    background-image: url("../images");
-    color:grey;
-}
+
 .header{
     background-image: url("./images/musicbg.jpeg");
     box-sizing: border-box;
