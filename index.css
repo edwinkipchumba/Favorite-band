@@ -1,16 +1,127 @@
-div{
-    padding: 50px;
-    background-color:blue;
+  
+*{
+    margin: 0;
+    padding: 0;
 }
+
+.headershowcase{
+    background-image: url("../images");
+    color:grey;
+}
+.header{
+    background-image: url("./images/musicbg.jpeg");
+    box-sizing: border-box;
+    width: 1400px;
+    height: 500px;
+    border: 10px 10px solid bisque;
+}
+#logo-2{
+    position: absolute;
+    top: 40px;
+    right: 100px;
+
+}
+#maindiv{
+    background-image:  url ("../images/bg.jpg")
+    
+}
+
+
 h1{
-    text-decoration:underline wavy blue;
+    font-size: 50px;
+    font-style: oblique;
+    font-weight: bold;
+    color: blueviolet;
+    top: 40px ;
+    text-align: center;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin: 10px;
+    height: 100px;
+    width: 1o00px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-style: italic;
+    background-image: url("../images/bg.jpeg");
+    border: 5px red solid;
+    
+}
+.container{
+    box-sizing: border-box;
+    padding: 10px;
+}
+ul{
+    color: blue;
+    
+}
+li{
+    font-size: 10px;
+    font-family: serif;
+    font-style: italic;
 }
 img{
-    width:100px;
-    border-radius:50px;
-    float:left;
-    margin-right:10px;
+    border-radius: 50%;
+    mask-image: url('./images/bg.jpeg');
 }
+
 h3{
-    font-style:italic;
+    color: blue;
+    font-family: Tahoma;
 }
+
+:placeholder{
+    color: red;
+    opacity: 0.5;
+    padding-left: 10px;
+
+}
+#subsribe{
+    background-color: red;
+    width: 200px;
+    height: 50px;
+    border: none;
+    align-items: center;
+    color: red;
+}
+.ngoma-zone{
+    text-align: center;
+    align-items: center;
+}
+.main-footer{
+    background: #f15a29;
+    color: #fff;
+    text-align: center;
+    padding-top: 20PX;
+    font-size: 15px;
+    color: bisque;
+    
+}
+#copyrigt{
+    font-size: 15px;
+    align-items: center;
+    text-align: center;
+}
+#align-logo{
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+
+
+@media (max-width: 600px){
+    .header{
+        width: 1400px;
+        float: none;
+        font-size: 40px;
+    }
+  .container{
+      width: 100px;
+      float: none;
+  }
+}
+
