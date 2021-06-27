@@ -28,15 +28,20 @@ justify-content: space-between;
 
 
 
-
 .container{
     display: flex;
     text-align: center;
-  
-
+  justify-content: space-between;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     font-style: italic;  
+}
+.container div{
+    margin: 10px 20px 10px 20px;
+    padding: 0px 5px 0px 5px;
+}
+.container>div{
+    background-color:burlywood;
 }
 img{
     border-radius: 50%;
@@ -56,21 +61,21 @@ hr{
     color: blue;
 }
 #ffb-img{
- width: 5px;
+ justify-content: space-between;
 }
 #text-fb{
     justify-content: space-between;
     text-align: center;
 }
 #twitter-img{
-   width: 5px;
+   justify-content: space-between;
 }
 #text-tw{
     justify-content: space-between;
     text-align: center;
 }
-#insta{
-    width: 5px;
+#insta-img{
+    justify-content: space-between;
 }
 #text-inst{
     justify-content: center;
@@ -105,8 +110,9 @@ hr{
     height: 50px;
     text-align: center;
 }
-:placeholder-shown{
-color: red;
+.sub input[type="subscribe"]{
+background-color: red;
+color: #333;
 opacity: 0.9;
 padding-left: 10px;
 }
